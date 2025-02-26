@@ -9,9 +9,9 @@ class Pygame3dEngine:
     def __init__(self):
         pygame.init()
         self.display = pygame.display.Info().current_w, pygame.display.Info().current_h
-        self.focal_length = 150
+        self.focal_length = 85
         self.running = True
-        self.scale = 800
+        self.scale = 5
         self.center = self.to_screen_coordinates(0, 0)
         self.camera = Camera(numpy.array([0., 0., 0.]), numpy.array([0., 90., 0.]))
         self.camera_clipping_planes = [
