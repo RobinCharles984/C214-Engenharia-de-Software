@@ -45,7 +45,7 @@ Projects created during class where:
 
 ## Built With
 
-* Python
+* NodeJS
 * Visual Studio Code
 
 ## Getting Started
@@ -54,9 +54,9 @@ Use VSCode <img src="images/vscode.png" alt="vscodelogo" width="35" height="35">
 
 ### Prerequisites
 
-* python
+* NodeJS
 
-[Install last Python version](https://www.python.org/downloads/)
+[Install last NodeJS version]()
 
 ### Installation
 
@@ -66,23 +66,22 @@ Use VSCode <img src="images/vscode.png" alt="vscodelogo" width="35" height="35">
 git clone [https://github.com/your_username_/Project-Name.git](https://github.com/RobinCharles984/C214-Engenharia-de-Software.git)
 ```
 
-2. Install virtual environment
+2. Install dependencies
 
 ```sh
-python -m venv .venv
+npm install
 ```
 
-3. Pip install the packages
+3. Test the project
 
 ```sh
-pip install -r requirements.txt
+npm test
 ```
 
-4. Run while in virtal environment is activated in each folder
+4. Start project
 
 ```sh
-.venv/Scripts/activate
-python main.py
+npm start
 ```
 
 ## Usage
